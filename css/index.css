@@ -1,0 +1,382 @@
+.jd{
+height: 480px;
+position: relative;
+}
+.jd-inner{
+	height: 480px;
+	position: relative;
+	z-index: 1;
+}
+.ad{
+	height: 480px;
+	background: url(../images/ad.png) no-repeat top center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.ad a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+.jd-col1{
+	border-top:1px solid #ededed;
+	width: 190px;
+	height: 455px;
+	float: left;
+	padding-top: 15px;
+	background: #fefefe;
+}
+.jd-col1 li{
+	padding-left: 15px;
+	height: 28px;
+	line-height: 28px;
+}
+.jd-col1 li:hover{
+	background-color:#999395 ;
+}
+.jd-col1 li a{
+	font-size: 14px;
+    color: #626262;
+}
+.jd-col1 span{
+	font-size: 12px;
+	color: #626262;
+
+}
+.jd-col1 li a:hover{
+	color:red;
+}
+.jd-col2{
+	width: 590px;
+	height: 470px;
+	float: left;
+	margin-left: 10px;
+	position:relative;
+
+}
+.jd-col3{
+	width: 190px;
+	height: 470px;
+	margin-left: 10px;
+	float:left;
+}
+
+.jd-col4{
+	width: 190px;
+	height: 470px;
+	margin-left: 10px;
+	float:right;
+}
+ .user {
+	height:140px;
+	background-color:#fff;
+	
+
+}
+.user-info {
+    position: relative;
+    left: 50%;
+    top: -10px;
+    margin-left: -34px;
+    width: 65px;
+    height: 65px;
+}
+.user-info a img{
+	width: 55px;
+	height: 55px;
+	display: block;	
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border-radius: 50%;
+	box-shadow: 3px 6px 25px #c3c3c3;
+	border: 5px solid #e3e1df;/*加一个圆框环绕*/
+}
+.user p {
+	line-height: 20px;
+    width: 100%;
+    white-space: nowrap;/*强制一行显示nowrap*/
+    text-align: center;
+    color: #888;
+}
+.user .user_login,.user_reg{
+	text-align: center;
+	padding: 0 2px;
+	color: #666;
+}
+.user-profit{
+	text-align: center;
+    height: 25px;
+    font-size: 0;
+
+}
+
+.user-profit .user_profit_lk{
+	display: inline-block;
+    margin: 5px 5px 5px 0;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    color: #e43f3b;
+    box-shadow: 6px 8px 20px rgba(45,45,45,.15);
+    border-radius: 13px;
+
+}
+.user-profit .user_profit_lk:hover {
+    background-color: #e01222;
+    color: #fff;
+}
+.user-profit .user_profit_lk_plus{
+	background: #363634;
+    color: #e5d790;
+}
+.news{
+	height:130px;
+	
+	padding:5px 15px 0;
+}
+.tab-hd{
+ padding:3px 0;
+ position: relative;
+}
+.tab-hd a{
+	color: #747474;
+}
+.cuxiao{
+	border-right: 1px solid #ccc;
+	padding-right: 10px; 
+}
+.gonggao{
+	padding-left: 10px;
+}
+.news .more{
+position: absolute;
+top: 0 ;
+right: 0;
+}
+.news .line{
+	position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 27px;
+    height: 2px;
+    background: #db192b;
+}
+.tab-bd{
+	margin-top: 8px;
+	
+}
+.tab-bd ul{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.tab-bd ul li{
+	line-height: 22px;
+    max-width: 160px;
+    width: 160px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #999;
+}
+
+.jd-service{
+	height: 194px;
+	margin-top: 20px;
+}
+.jd-service li{
+	float: left;
+    width: 42px;
+    height: 57px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    
+}
+.jd-service li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+
+}
+.jd-service li i{
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin:5px auto 8px;
+	background-color: pink;
+	background:url(../images/sprite_fs@1x.png) no-repeat;
+}
+.jd-service .jipiao i{
+	background-position:-44px 0;
+	}
+.jd-service li p{
+	text-align: center;
+	display: block;
+}
+.jd-col2-hd{
+	height: 590px;
+	width: 470px;
+	
+}
+.jd-col2-hd .arr-l
+{
+	width: 24px;
+	height: 40px;
+	background-color:rgba(0,0,0,.5);
+	display: inline-block;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	right:0;
+	z-index: 2;
+	color: #fff;
+}
+.jd-col2-hd .arr-r
+{
+	width: 24px;
+	height: 40px;
+	background-color:rgba(0,0,0,.5);
+	display: inline-block;
+	line-height: 40px;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	left:0;
+	z-index: 2;
+	color: #fff;
+	text-align: center;
+}
+
+.jd-col3 a{
+	width: 190px;
+	height: 150px;
+
+	
+}
+.jd-col3 a img{
+	margin-bottom: 10px;
+}
+.jd-col2-hd ol{
+	position: absolute;
+	bottom: 20px;
+	left: 180px;
+	margin-left:-80px;
+	width: 160px;
+	height: 20px; 
+
+	border-radius: 10px;
+}
+.jd-col2-hd ol li{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #fff;
+	float: left;
+	margin-left: 7px;
+	margin-top: 4px;
+	background-color: rgba(255,255,255,.2);
+    text-align: center;
+}
+.jd-col2-hd ol .current{
+	background-color:#fff;
+}
+/*二维码隐藏*/
+.mobile_qrcode::after{
+	content: ""
+	background:url('../images/mobile_qrcode.png') no-repeat;
+	background-position: top 0 left 0;
+}
+.mobile_static {
+    position: absolute;
+    left: 13px; 
+    width: 66px;
+    height: 66px;
+    border: 1px solid #cfcfcf;
+    }
+  .mobile_static::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: -9px;
+    left: 50%;
+    margin-left: -5px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e4e4e4 #e4e4e4 #f6f6f6;}
+.mobile_pop::before{
+	content: "";
+    position: absolute;
+    display: block;
+    top: -9px;
+    left: 83%;
+    margin-left: -5px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e4e4e4 #e4e4e4 #f6f6f6;
+}
+.mobile_static_qrcode{
+	margin: 4px auto;
+    width: 60px;
+    height: 60px;
+    background: #f6f6f6 url(../images/mobile_qrcode.png) 50% no-repeat;
+}
+.mobile_static_qrcode a{
+	display: block;
+	margin: 4px auto;
+    width: 60px;
+    height: 60px;
+    background: #f6f6f6 url(../images/mobile_qrcode.png) 50% no-repeat;
+}
+.mobile_pop {
+   /* display: none;*/
+    position: absolute;
+    left: auto;
+    right: -1px ;
+    top: -1px;
+    height: 101px;
+    width: 190px;
+    border: 1px solid #cfcfcf;
+    background-color: #fff;
+    border-bottom: 1px solid #60575a;
+}
+.mobile_pop img {
+    width: 70px;
+    height: 70px;
+    margin: 15px auto;
+}
+.mobile_pop_info {
+    margin: -88px 0px 0 85px;
+    min-height: 70px;
+}
+ .mobile_pop_tit {
+    font-size: 12px;
+    line-height: 17px;
+    color: #666 !important;
+}
+.mobile_pop_value{
+margin: 3px 0;
+    line-height: 14px;
+    color: #F10214;
+}
+.mobile_pop_device {
+    overflow: hidden;
+    height: 25px;
+}
